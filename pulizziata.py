@@ -1,7 +1,7 @@
 from geopandas import read_file
 from pandas import concat, read_csv
 
-# Carrica prichi ISTAT
+# Carrica dati ISTAT
 riggiuni_italia = read_file("./Limiti01012023/Reg01012023/Reg01012023_WGS84.shp")
 pruvinci_italia = read_file("./Limiti01012023/ProvCM01012023/ProvCM01012023_WGS84.shp")
 cumuna_italia = read_file("./Limiti01012023/Com01012023/Com01012023_WGS84.shp")

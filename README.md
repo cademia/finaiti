@@ -1,3 +1,3 @@
-# Dati dei comuni
+Camora sta _repo_ cunteni i finaiti dâ Sicilia, chiḍḍi dî pruvinci (oji cità metrupulitani e lìbbiri cunzorzi cumunali) e chiḍḍi dî cumuna. Sti dati su' astratti di chiḍḍi Istat, attualizzati a l'1 jinnaru 2023. Sparti, cci su' i noma dî cumuna 'n sicilianu.
 
-La lista dei comuni è aggiornata all'1 gennaio 2023.
+Cuncessu 'n licenza a norma di l'EUPL 1.2.
