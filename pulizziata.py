@@ -38,7 +38,7 @@ cumuna_sicilia = cumuna_sicilia[['SCN', 'ITA', 'PROVINCE', 'LOCAL', 'IPA', 'DEMO
 cumuna_sicilia = cumuna_sicilia.replace({'Ã¬': 'ì', 'Ã¹': 'ù', 'Ã²': 'ò', 'Ã': 'à', "\xa0": ''}, regex=True)
 
 # Metti macari i noma dî cumuna_sicilia 'n sicilianu
-tupònimi = read_csv('./tupònimi.csv')
+tupònimi = read_csv('./tuponimi.csv')
 for index, row in tupònimi.iterrows():
     cumuna_sicilia.loc[cumuna_sicilia['ITA'] == row['ITA'], ['SCN', 'LOCAL', 'IPA', 'DEMONYM', 'FROM_CS']] = [row['SCN'], row['LOCAL'], row['IPA'], row['DEMONYM'], row['FROM_CS']]
 

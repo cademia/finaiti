@@ -12,7 +12,7 @@ Agira,Santu Fulippu,San Fulippu,,,1
 Agrigento,Girgenti,Giurgenti,,,1
 Aidone,,"Aidungh, Dadungh, Aiduni, Daduni",,,2
 Alcamo,Àrcamu,,,,1
-Alcara li Fusi,,L'Arcara,,,2
+Alcara li Fusi,Larcara,Larcara,,,2
 Alessandria della Rocca,Lisciànnira,Lisciànnira (dâ Rocca),,,21
 Alì,,Alì Susu,,,2
 Alì Terme,,Alì Jusu,,,2
@@ -53,7 +53,7 @@ Caccamo,Càccamu,,,,1
 Calamonaci,Calamònaci,,,,1
 Calascibetta,,,,,
 Calatabiano,,,,,
-Calatafimi-Segesta,,,,,
+Calatafimi-Segesta,Catalafimi,,,,2
 Caltabellotta,Cataviḍḍotta,,,,1
 Caltagirone,Cartaggiruni,Cattaggiruni,,,1
 Caltanissetta,Nissa,,,,1
@@ -91,7 +91,7 @@ Casteltermini,Castirtèrmini,,,,0
 Castelvetrano,Casteḍḍuvitranu,,,,1
 Castiglione di Sicilia,Castigghiuni,,,,1
 Castrofilippo,Castrufulippu,,,,0
-Castronovo di Sicilia,,,,,
+Castronovo di Sicilia,Castrunovu,,,,2
 Castroreale,Castru,,,,1
 Catania,Catania,,,,1
 Catenanuova,,,,,
@@ -169,7 +169,7 @@ Lercara Friddi,,,,,
 Letojanni,,,,,
 Librizzi,,,,,
 Licata,Alicata,"Licata, Alicata",,,1
-Licodia Eubea,,,,,
+Licodia Eubea,Licuddìa,,,,
 Limina,Lìmmina,,,,1
 Linguaglossa,Linguagrossa,,,,0
 Lipari,,,,,
@@ -180,7 +180,7 @@ Malfa,,,,,
 Malvagna,,,,,
 Mandanici,,,,,
 Maniace,Maniaci,,,,0
-Marianopoli,,,,,
+Marianopoli,I Manchi,,,,2
 Marineo,,,,,
 Marsala,Marsala,Majssala,,,1
 Mascali,Màscali,,,,1
@@ -193,13 +193,13 @@ Melilli,Miliḍḍi,,,,1
 Menfi,Mènfrici,,,,1
 Merì,,,,,
 Messina,Missina,,,,1
-Mezzojuso,Menzjusu,,,,1
+Mezzojuso,Menzijusu,,,,1
 Milazzo,Milazzu,,,,1
 Milena,Milocca,,,,1
 Militello in Val di Catania,Militeḍḍu,"Militeḍḍu, Militiḍḍu",,,1
 Militello Rosmarino,,,,,
 Milo,U Milu,,,,0
-Mineo,,,,,
+Mineo,Mineu,,,,0
 Mirabella Imbaccari,,,,,
 Mirto,Mirtu,,,,1
 Misiliscemi,,,,,
@@ -258,7 +258,7 @@ Piedimonte Etneo,,,,,
 Pietraperzia,,,,,
 Piraino,,,,,
 Poggioreale,,,,,
-Polizzi Generosa,,,,,
+Polizzi Generosa,Pulizzi,,,,2
 Pollina,,,,,
 Porto Empedocle,A Marina,,,,1
 Portopalo di Capo Passero,Portupalu (già Terranòbbili),Puortupalu,,,1
@@ -277,7 +277,7 @@ Ravanusa,Rivinusa,,,,1
 Realmonte,Muntirriali,,,,1
 Regalbuto,,,,,
 Reitano,,,,,
-Resuttano,,,,,
+Resuttano,Rastanu,,,,0
 Ribera,Rivela,,,,1
 Riesi,,,,,
 Riposto,,,,,
@@ -320,19 +320,19 @@ Sant'Angelo di Brolo,,,,,
 Sant'Angelo Muxaro,Sant'Àncilu Musciaru,,,,0
 Santa Caterina Villarmosa,,,,,
 Santa Cristina Gela,,,,,
-Santa Croce Camerina,,,,,
+Santa Croce Camerina,Santa Cruci,Santa Cruci,,,2
 Santa Domenica Vittoria,,,,,
 Santa Elisabetta,A Sabbetta,,,,0
 Santa Flavia,,,,,
 Santa Lucia del Mela,,,,,
 Santa Margherita di Belice,Santa Margarita,,,,1
-Santa Maria di Licodia,,,,,
+Santa Maria di Licodia,Fuḍḍìa,"Fuḍḍìa, Lifuḍḍìa",,fuḍḍiotu,12
 Santa Marina Salina,,,,,
 Santa Ninfa,,,,,
 Santa Teresa di Riva,Santa Tiresa (già A Marina di Sàvuca),,,,1
 Santa Venerina,"Santa Vènnira, Santa Vinnirina",,,,0
 Santo Stefano di Camastra,,,,,
-Santo Stefano Quisquina,,,,,
+Santo Stefano Quisquina,Santu Stèfanu Cuschina,,,,0
 Saponara,,,,,
 Savoca,,,,,
 Scaletta Zanclea,,,,,
@@ -340,7 +340,7 @@ Sciacca,Sciacca,,,,1
 Sciara,,,,,
 Scicli,Scìchili,,,,1
 Scillato,,,,,
-Sclafani Bagni,,,,,
+Sclafani Bagni,Scàfani,"Scàfani, Scàfina",,"scafanotu",2
 Scordia,Scurdìa,,,,1
 Serradifalco,Serradifarcu,,,,1
 Siculiana,Siculiana,,,,0
@@ -374,7 +374,7 @@ Valderice,Papareḍḍa,,,,1
 Valdina,,,,,
 Valguarnera Caropepe,Carrapipi,,,,1
 Valledolmo,,,,,
-Vallelunga Pratameno,,,,,
+Vallelunga Pratameno,Vaḍḍilonga,,,,2
 Valverde,Beḍḍuvirdi,Beḍḍuviddi,,,1
 Venetico,,,,,
 Ventimiglia di Sicilia,Calamigna,,,,1
