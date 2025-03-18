@@ -22,9 +22,9 @@ riggiuni_calabbria = (
 )
 riggiuni_calabbria['SCN'] = 'Calabbria'
 
-riggiuni_junciuti = GeoDataFrame(concat([riggiuni_sicilia, riggiuni_calabbria], ignore_index=True))
-riggiuni_junciuti = riggiuni_junciuti[['SCN', 'ITA', 'geometry']]
-riggiuni_junciuti.to_crs(epsg=4326).to_file('./riggiuni/riggiuni.shp', encoding='utf-8')
+riggiuna_junciuti = GeoDataFrame(concat([riggiuni_sicilia, riggiuni_calabbria], ignore_index=True))
+riggiuna_junciuti = riggiuna_junciuti[['SCN', 'ITA', 'geometry']]
+riggiuna_junciuti.to_crs(epsg=4326).to_file('./riggiuna/riggiuna.shp', encoding='utf-8')
 
 # %% Sarba i cunfini dî pruvinci
 pruvinci_sicilia = (
@@ -96,8 +96,8 @@ cumuna_junciuti = cumuna_junciuti[['SCN', 'ITA', 'PROVINCE', 'LOCAL', 'DEMONYM',
 cumuna_junciuti = cumuna_junciuti.replace({'Ã¬': 'ì', 'Ã¹': 'ù', 'Ã²': 'ò', 'Ã': 'à', "\xa0": ''}, regex=True)
 
 # %% Metti macari i noma dî cumuna 'n sicilianu
-tupònimi = read_csv('./tuponimi.csv')
-for index, row in tupònimi.iterrows():
+tuponimi = read_csv('./tuponimi.csv')
+for index, row in tuponimi.iterrows():
     cumuna_junciuti.loc[cumuna_junciuti['ITA'] == row['ITA'], ['SCN', 'LOCAL', 'DEMONYM', 'FROM']] = [
         row['SCN'], row['LOCAL'], row['DEMONYM'], row['FROM']
     ]
@@ -105,5 +105,5 @@ for index, row in tupònimi.iterrows():
 cumuna_junciuti.to_crs(epsg=4326).to_file('./cumuna/cumuna.shp', encoding='utf-8')
 
 # %% Sarba tutti tri nzèmmula
-junciuti = concat([riggiuni_junciuti, pruvinci_junciuti, cumuna_junciuti]).reset_index(drop=True)
+junciuti = concat([riggiuna_junciuti, pruvinci_junciuti, cumuna_junciuti]).reset_index(drop=True)
 junciuti.to_crs(epsg=4326).to_file('./junciuti/junciuti.shp', encoding='utf-8')
