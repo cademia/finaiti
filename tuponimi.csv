@@ -26,7 +26,7 @@ Aragona,Ragona,Raona,raunisi,"CS, DT1990"
 Assoro,Àsaru,,asarisi,"DT1990"
 Augusta,Agusta,Austa,"ustanisi, ustitanu","CS, DT1990"
 Avola,Àvula,"Àula, Àila, Àvula",,"CS, DT1990"
-Bagheria,Bagarìa,Baarìa,"baariotu, bagariotu","CS, DT1990"
+Bagheria,Bagarìa,Baarìa,"baariotu, bagariotu","Amico1856, CS, DT1990"
 Balestrate,Sicciara,"Sicciara, Balistrati",sicciarotu,"DT1990"
 Barcellona Pozzo di Gotto,Barcialona (+ Pizzagottu),Baccialona (+ Pizzaottu),"baccialunisi, pizzauttisi","CS"
 Barrafranca,,,,
@@ -290,8 +290,8 @@ Roccella Valdemone,,,,
 Rodì Milici,,,,
 Rometta,,,,
 Rosolini,Rusalini,,,"CS"
-Salaparuta,,,,
-Salemi,Salemi,,,
+Salaparuta,Salaparuta,,,"Amico1856"
+Salemi,Salemi,,,"Amico1856"
 Sambuca di Sicilia,Sammuca,,,"CS"
 San Biagio Platani,San Brasi,,,
 San Cataldo,,,,
@@ -333,43 +333,43 @@ Santa Teresa di Riva,Santa Tiresa (già A Marina di Sàvuca),,,"CS"
 Santa Venerina,"Santa Vènnira, Santa Vinnirina",,,
 Santo Stefano di Camastra,,,,
 Santo Stefano Quisquina,Santu Stèfanu Cuschina,,,
-Saponara,,,,
-Savoca,,,,
+Saponara,Sapunara,,,"Amico1856"
+Savoca,Savuca,,,"Amico1856"
 Scaletta Zanclea,,,,
-Sciacca,Sciacca,,,"CS"
-Sciara,,,,
+Sciacca,Sciacca,,,"Amico1856, CS"
+Sciara,Sciara,,,"Amico1856"
 Scicli,Scìchili,,,"CS"
-Scillato,,,,
+Scillato,Sciḍḍatu,,,"Amico1856"
 Sclafani Bagni,Scàfani,"Scàfani, Scàfina",scafanotu,"DT1990"
 Scordia,Scurdìa,,,"CS"
-Serradifalco,Serradifarcu,,,"CS"
+Serradifalco,Serradifarcu,,,"Amico1856, CS"
 Siculiana,Siculiana,,,
 Sinagra,,,,
 Siracusa,Saragusa,Sarausa,,"CS"
 Solarino,Santu Paulu,"Santu Paulu, San Paulu",,"CS"
-Sommatino,Summatinu,,,"CS"
-Sortino,Sciurtinu,,,"CS"
+Sommatino,Summatinu,,,"Amico1856, CS"
+Sortino,Sciurtinu,,,"Amico1856, CS"
 Spadafora,,,,
 Sperlinga,Spillinga,"Spillinga, Sperrënga",,"DT1990"
 Sutera,Sutera,,,
-Taormina,Taurmina,Taummina,,"CS"
+Taormina,Taurmina,Taummina,,"Amico1856, CS"
 Terme Vigliatore,Tèrmini Vigghiaturi,Tèmmini Lugghiaturi,,"CS"
 Termini Imerese,,,,
 Terrasini,Tirrasini (+ A Favarotta),,,"CS"
 Torregrotta,,,,
-Torrenova,,,,
-Torretta,Turretta,,,
-Tortorici,Turturici,,,"DT1990"
+Torrenova,Turrinova,,,"Amico1856"
+Torretta,Turretta,,,"Amico1856"
+Tortorici,Turturici,,,"Amico1856, DT1990"
 Trabia,Trabbìa,,,
 Trapani,Tràpani,Tràpane,,"CS"
-Trappeto,Trappitu,,,"CS"
+Trappeto,Trappitu,,,"Amico1856, CS"
 Trecastagni,Triccastagni,,,"CS"
-Tremestieri Etneo,Trimmisteri,,,"CS"
+Tremestieri Etneo,Trimmisteri,,,"Amico1856, CS"
 Tripi,,,,
 Troina,Trajina,,,"DT1990"
 Tusa,Tusa,,,"CS"
 Ucria,,,,
-Ustica,Lùstrica,"Lùstrica, Ùstrica",,"CS"
+Ustica,Lùstrica,"Lùstrica, Ùstrica",,"Amico1856, CS"
 Valderice,Papareḍḍa,,,"CS"
 Valdina,,,,
 Valguarnera Caropepe,Carrapipi,,,"CS"
@@ -391,19 +391,19 @@ Vittoria,Vittoria,,,"CS"
 Vizzini,Vizzini,,,"CS"
 Zafferana Etnea,A Zafarana,,,
 Bagaladi,,,,
-Bova,,,,
-Bova Marina,,,,
+Bova,Vua,"Χώρα του Βούα, Chora tu Vua, Vua",,"DT1990"
+Bova Marina,A Marina,"Γιαλό του Βούα, Jalò tu Vua, A Marina",,"DT1990"
 Calanna,,,,
-Campo Calabro,,,,
-Cardeto,,,,
+Campo Calabro,Campu,,,"DT1990"
+Cardeto,Carditu,,,"DT1990"
 Condofuri,Condofuri,"Κοντοχώρι, Condofuri, Condohuri",,"DT1990"
 Fiumara,,,,
-Laganadi,,,,
-Melito di Porto Salvo,,,,
+Laganadi,Lacanadi,,,"DT1990"
+Melito di Porto Salvo,Mèlitu,,,"DT1990"
 Montebello Jonico,,,,
 Motta San Giovanni,,,,
 Reggio di Calabria,Riggiu,,,
-Roccaforte del Greco,Vunì,"Βουνί, Vunì, A Rocca",,"DT1990"
+Roccaforte del Greco,A Rocca,"Βουνί, Vunì, A Rocca",,"DT1990"
 Roghudi,Rihudi,"Ροχούδι, Rihudi, Rifudi",,"DT1990"
 San Lorenzo,,,,
 San Roberto,,,,
