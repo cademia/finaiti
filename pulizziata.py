@@ -32,7 +32,7 @@ riggiuna_junciuti.to_crs(epsg=4326).to_file(gpkg, layer="riggiuna", driver="GPKG
 # %% Riggistra i finaiti pruvinciali
 pruvinci_siciliani = (
     pruvinci_taliani[['DEN_UTS', 'COD_UTS', 'geometry']][pruvinci_taliani['COD_REG'] == 19]
-    .rename(columns={'DEN_UTS': 'ITA', 'COD_UTS': 'PROVINCE'})
+    .rename(columns={'DEN_UTS': 'ITA'})
     .reset_index(drop=True)
 )
 noma_pruvinci_siciliani = {
@@ -51,7 +51,7 @@ pruvinci_siciliani['SCN'] = pruvinci_siciliani['ITA'].map(noma_pruvinci_sicilian
 pruvinci_calabbrisi = (
     pruvinci_taliani[['DEN_UTS', 'COD_UTS', 'geometry']]
     [(pruvinci_taliani['COD_REG'] == 18) & (pruvinci_taliani['DEN_UTS'] == 'Reggio di Calabria')]
-    .rename(columns={'DEN_UTS': 'ITA', 'COD_UTS': 'PROVINCE'})
+    .rename(columns={'DEN_UTS': 'ITA'})
     .reset_index(drop=True)
 )
 noma_pruvinci_calabbrisi = {
@@ -60,14 +60,14 @@ noma_pruvinci_calabbrisi = {
 pruvinci_calabbrisi['SCN'] = pruvinci_calabbrisi['ITA'].map(noma_pruvinci_calabbrisi)
 
 pruvinci_junciuti = GeoDataFrame(concat([pruvinci_siciliani, pruvinci_calabbrisi], ignore_index=True))
-pruvinci_junciuti = pruvinci_junciuti[['SCN', 'ITA', 'PROVINCE', 'geometry']]
+pruvinci_junciuti = pruvinci_junciuti[['SCN', 'ITA', 'COD_UTS', 'geometry']]
 # pruvinci_junciuti.to_crs(epsg=4326).to_file('./pruvinci/pruvinci.shp', encoding='utf-8')
 pruvinci_junciuti.to_crs(epsg=4326).to_file(gpkg, layer="pruvinci", driver="GPKG")
 
 # %% Riggistra i finaiti cumunali
 cumuna_siciliani = (
     cumuna_taliani[['COMUNE', 'COD_UTS', 'geometry']][cumuna_taliani['COD_REG'] == 19]
-    .rename(columns={'COMUNE': 'ITA', 'COD_UTS': 'PROVINCE'})
+    .rename(columns={'COMUNE': 'ITA'})
     .reset_index(drop=True)
 )
 
@@ -85,25 +85,26 @@ cumuna_calabbrisi = (
         (cumuna_taliani['COD_PROV'] == 80) &
         (cumuna_taliani['COMUNE'].isin(cumuna_siculofuni_calabbrisi))
     ]
-    .rename(columns={'COMUNE': 'ITA', 'COD_UTS': 'PROVINCE'})
+    .rename(columns={'COMUNE': 'ITA'})
     .reset_index(drop=True)
 )
 
 cumuna_junciuti = GeoDataFrame(concat([cumuna_siciliani, cumuna_calabbrisi], ignore_index=True))
 
-cumuna_junciuti['SCN'] = ''
-cumuna_junciuti['LOCAL'] = ''
-cumuna_junciuti['DEMONYM'] = ''
-cumuna_junciuti['FROM'] = ''
-cumuna_junciuti = cumuna_junciuti[['SCN', 'ITA', 'PROVINCE', 'LOCAL', 'DEMONYM', 'FROM', 'geometry']]
+# cumuna_junciuti['SCN'] = ''
+# cumuna_junciuti['LUCALI'] = ''
+# cumuna_junciuti['ABBITANTI'] = ''
+# cumuna_junciuti['FUNTI'] = ''
+# cumuna_junciuti = cumuna_junciuti[['SCN', 'ITA', 'COD_UTS', 'LUCALI', 'ABBITANTI', 'FUNTI', 'geometry']]
+cumuna_junciuti = cumuna_junciuti[['ITA', 'COD_UTS', 'geometry']]
 
 cumuna_junciuti = cumuna_junciuti.replace({'Ã¬': 'ì', 'Ã¹': 'ù', 'Ã²': 'ò', 'Ã': 'à', "\xa0": ''}, regex=True)
 
 # %% Metti macari i noma dî cumuna 'n sicilianu
 tuponimi = read_csv('./tuponimi.csv')
 for index, row in tuponimi.iterrows():
-    cumuna_junciuti.loc[cumuna_junciuti['ITA'] == row['ITA'], ['SCN', 'LOCAL', 'DEMONYM', 'FROM', 'TEXT']] = [
-        row['SCN'], row['LOCAL'], row['DEMONYM'], row['FROM'], row['TEXT']
+    cumuna_junciuti.loc[cumuna_junciuti['ITA'] == row['ITA'], ['SCN', 'LUCALI', 'ABBITANTI', 'FUNTI', 'NOTI']] = [
+        row['SCN'], row['LUCALI'], row['ABBITANTI'], row['FUNTI'], row['NOTI']
     ]
 
 # cumuna_junciuti.to_crs(epsg=4326).to_file('./cumuna/cumuna.shp', encoding='utf-8')
