@@ -100,7 +100,7 @@ cumuna_junciuti = cumuna_junciuti[['ITA', 'COD_UTS', 'geometry']]
 
 cumuna_junciuti = cumuna_junciuti.replace({'Ã¬': 'ì', 'Ã¹': 'ù', 'Ã²': 'ò', 'Ã': 'à', "\xa0": ''}, regex=True)
 
-# %% Metti macari i noma dî cumuna 'n sicilianu
+# %% Junci i dati di tuponimi.csv (i noma dî cumuna 'n sicilianu, i noma di l'abbitanti, ecc.)
 tuponimi = read_csv('./tuponimi.csv')
 for index, row in tuponimi.iterrows():
     cumuna_junciuti.loc[cumuna_junciuti['ITA'] == row['ITA'], ['SCN', 'LUCALI', 'ABBITANTI', 'FUNTI', 'NOTI']] = [
