@@ -1,6 +1,13 @@
 .DS_Store
+
 TMP/
 Limiti01012025/
-venv/
-autru.txt
+ASC_21/
+Localita_21/
+LocalitaPuntuali_21/
+
+venv-finaiti/
+requirements.txt
+
 suttacumuna.ipynb
+autru.txt
